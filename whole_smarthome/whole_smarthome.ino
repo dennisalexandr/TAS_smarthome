@@ -6,8 +6,8 @@
 WiFiClient net;
 MQTTClient client;
 
-const char ssid[] = "Private";
-const char pass[] = "mautauaja";
+const char ssid[] = "";
+const char pass[] = "";
 String unique;
 String belongsto;
 unsigned long lastMillis = 0;
